@@ -61,7 +61,7 @@ export const Subject = styled.input`
   border: 1px solid #bdbdbd;
 `;
 
-export const Contents = styled.textarea`
+export const Content = styled.textarea`
   width: 996px;
   height: 480px;
   padding-left: 16px;
@@ -164,5 +164,11 @@ export const SubmitButton = styled.button`
   margin-left: 12px;
   margin-right: 12px;
   cursor: pointer;
-  background-color: yellow;
+  /* background-color: yellow; */
+`;
+
+export const Error = styled.div`
+  padding-top: 10px;
+  font-size: 14px;
+  color: red;
 `;
